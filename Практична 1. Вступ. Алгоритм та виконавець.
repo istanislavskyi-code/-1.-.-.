@@ -1,0 +1,20 @@
+Практичне завдання Java №1 (2413)
+Example 1:
+
+Input: n = 5
+Output: 10
+Example 2:
+
+Input: n = 6
+Output: 6
+
+class Solution {
+public:
+    int smallestEvenMultiple(int n) {
+        if (n % 2 == 0) {
+            return n;
+        } else {
+            return n * 2;
+        }
+    }
+};
